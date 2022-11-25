@@ -1,74 +1,115 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-y: hidden;
-}
-
-a {
-  color: var(--color1);
-  text-decoration: none;
-  -webkit-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+:root {
+  --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-sans: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 :root {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 840px) {
   :root {
     font-size: 14px;
   }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 420px) {
   :root {
     font-size: 12px;
   }
 }
 
-@media screen and (max-width: 340px) {
-  :root {
-    font-size: 10px;
-  }
-}
-
 :root {
-  --black1: #141414;
-  --black2: #282828;
-  --black3: #3c3c3c;
+  --black20: #141414;
+  --black40: #282828;
+  --black60: #3c3c3c;
 
-  --white1: #f5f5f5;
-  --white2: #ebebeb;
-  --white3: #e1e1e1;
+  --white245: #f5f5f5;
+  --white235: #ebebeb;
+  --white225: #e1e1e1;
 
-  --grey1: #646464;
-  --grey2: #8c8c8c;
-  --grey3: #b4b4b4;
+  --grey80: #505050;
+  --grey120: #787878;
+  --grey160: #a0a0a0;
+
+  --red1: #bf4040;
+  --red2: #f6c1c1;
+
+  --green1: #40bf40;
+  --green2: #c1f6c1;
+
+  --yellow1: #bfbf40;
+  --yellow2: #f6f6c1;
 
   --color1: #7dc59b;
   --color2: #a7c57d;
   --color3: #c5bf7d;
   --color4: #dfab8f;
   --color5: #7da7c5;
+
+  --black20_p8_opacity: rgba(20, 20, 20, 0.8);
+  --black40_p8_opacity: rgba(40, 40, 40, 0.8);
 }
 
 :root {
-  --text1: var(--white1);
-  --text2: var(--white2);
-  --text3: var(--white3);
-  --text4: var(--black1);
-
-  --surface1: var(--black2);
-
   --home: var(--color1);
   --about: var(--color2);
   --stack: var(--color3);
   --projects: var(--color4);
   --contact: var(--color5);
+
+  --text1: var(--white245);
+  --text2: var(--white235);
+  --text3: var(--white225);
+  --text4: var(--black20);
+  --text5: var(--black40);
+
+  --surface1: var(--black40);
+  --surface2: var(--black60);
+
+  --shadow1: var(--black60);
+  --shadow2: var(--grey80);
+
+  --border1: var(--white225);
+  --border2: var(--grey80);
+
+  --error1: var(--red1);
+  --error2: var(--red2);
+
+  --success1: var(--green1);
+  --success2: var(--green2);
+
+  --warning1: var(--yellow1);
+  --warning2: var(--yellow2);
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-system);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+
+body::-webkit-scrollbar {
+  background-color: var(--surface1);
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+  background-color: var(--surface2);
+  -webkit-box-shadow: inset 0.1rem 0.1rem 0.2rem var(--grey120);
+  box-shadow: inset 0.1rem 0.1rem 0.2rem var(--grey120);
+}
+
+body::-webkit-scrollbar-thumb:active {
+  background-color: var(--color1);
 }

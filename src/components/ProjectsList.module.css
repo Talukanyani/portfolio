@@ -1,0 +1,126 @@
+.project {
+    width: 50rem;
+    max-width: 80vw;
+    max-height: 80vh;
+    padding: 1.5rem 1rem;
+    overflow-y: auto;
+    border-radius: 0.5rem;
+    background-color: var(--surface1);
+    -webkit-box-shadow: inset 0 0 1rem var(--shadow1);
+    box-shadow: inset 0 0 1rem var(--shadow1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
+}
+
+.closingicon {
+    position: absolute;
+    top: 0.6rem;
+    right: 0.6rem;
+    cursor: pointer;
+}
+
+.project_sidebar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project_sidebar>img {
+    width: 20rem;
+    border: 1px dashed var(--border1);
+    border-radius: 0.5rem;
+}
+
+.project_sidebar section {
+    width: 14rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.project_sidebar button {
+    font-size: 1rem;
+    color: inherit;
+    background: transparent;
+    border: 0.1rem solid var(--border1);
+    border-radius: 0.25rem;
+    padding: 0;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.project_sidebar button a {
+    color: inherit;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.project_sidebar button img {
+    width: 1.5rem;
+}
+
+.project_sidebar button:hover {
+    -webkit-box-shadow: inset 0 0 2rem -1rem var(--border1);
+    box-shadow: inset 0 0 2rem -1rem var(--border1);
+}
+
+.project_sidebar button:active {
+    -webkit-box-shadow: inset 0 0 4rem -1rem var(--border1);
+    box-shadow: inset 0 0 4rem -1rem var(--border1);
+}
+
+.project_content {
+    font-size: 0.9rem;
+}
+
+.project_content h1 {
+    font-weight: 500;
+    margin-top: 0;
+}
+
+.project_content mark {
+    padding: 0 0.2rem;
+    border-radius: 0.3rem;
+    background-color: var(--projects);
+}
+
+
+@media screen and (max-width: 720px) {
+    .project {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .project_sidebar {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+
+    .project_sidebar>img {
+        width: 100%;
+    }
+}
