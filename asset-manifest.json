@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b0f13f76.css",
-    "main.js": "/portfolio/static/js/main.b13561ba.js",
+    "main.css": "/portfolio/static/css/main.07274441.css",
+    "main.js": "/portfolio/static/js/main.a5835e95.js",
     "static/media/react_logo.svg": "/portfolio/static/media/react_logo.684012d710402380ded14e6037701b4c.svg",
     "static/media/nodejs_logo.svg": "/portfolio/static/media/nodejs_logo.a13759142fbae8c69649f9d9dccdd9e2.svg",
     "static/media/about_illustration.png": "/portfolio/static/media/about_illustration.56734fbd8168020bbf6a.png",
@@ -14,10 +14,10 @@
     "static/media/javascript_logo.svg": "/portfolio/static/media/javascript_logo.b9bc0ca96548797cf8e0745b85e3b4e2.svg",
     "static/media/portfolio_web_image.png": "/portfolio/static/media/portfolio_web_image.cc29c0ae5ec9b555afce.png",
     "static/media/sc_app_image.png": "/portfolio/static/media/sc_app_image.7eb3bd65c54cc532e899.png",
-    "static/media/portfolio_logo.png": "/portfolio/static/media/portfolio_logo.81b98917472514f95d57.png",
     "static/media/postman_logo.svg": "/portfolio/static/media/postman_logo.07773a36b7d6680c523c1e7835d881d4.svg",
     "static/media/aws_route53_icon.svg": "/portfolio/static/media/aws_route53_icon.41ee1370ba32ba23fc6fb9002edf1dce.svg",
     "static/media/aws_elastic_beanstalk_icon.svg": "/portfolio/static/media/aws_elastic_beanstalk_icon.f34bd7dc27a36ceb4ea2f6f4b6747dcb.svg",
+    "static/media/icon_github.svg": "/portfolio/static/media/icon_github.5b45fee9506eade004ec0c749b2e675c.svg",
     "static/media/vscode_logo.svg": "/portfolio/static/media/vscode_logo.9f97a81588b5d582e97a77bad2cbad4e.svg",
     "static/media/aws_rds_icon.svg": "/portfolio/static/media/aws_rds_icon.59b9ce16343b836159fab07ba03a8c2c.svg",
     "static/media/chrome_logo.svg": "/portfolio/static/media/chrome_logo.d2830058429fcde753e3e69287c48c0b.svg",
@@ -25,6 +25,7 @@
     "static/media/express_logo.svg": "/portfolio/static/media/express_logo.c539a090ff942441612df356ff4dfc31.svg",
     "static/media/dart_logo.svg": "/portfolio/static/media/dart_logo.9735ca05f189e1b8a4679570144b9086.svg",
     "static/media/flutter_logo.svg": "/portfolio/static/media/flutter_logo.f91752b8853086a4c1e0f4588c243fe2.svg",
+    "static/media/icon_linkedin.svg": "/portfolio/static/media/icon_linkedin.b2815a2d3c82d25fe4f6d13f04878de6.svg",
     "static/media/icon_message.svg": "/portfolio/static/media/icon_message.0f60cdc84cc2a83130baad3fd6e1f28e.svg",
     "index.html": "/portfolio/index.html",
     "static/media/icon_projects.svg": "/portfolio/static/media/icon_projects.8f1291738cd1287b72973ff1a21328be.svg",
@@ -37,11 +38,11 @@
     "static/media/icon_down_arrow.svg": "/portfolio/static/media/icon_down_arrow.4c919b116871197120affc9e783bdf4a.svg",
     "static/media/icon_globe.svg": "/portfolio/static/media/icon_globe.c99977614058815b82da190961f3e5fe.svg",
     "static/media/icon_email.svg": "/portfolio/static/media/icon_email.c8fd684bb2ae2b7d7113b7aaff1cf87c.svg",
-    "main.b0f13f76.css.map": "/portfolio/static/css/main.b0f13f76.css.map",
-    "main.b13561ba.js.map": "/portfolio/static/js/main.b13561ba.js.map"
+    "main.07274441.css.map": "/portfolio/static/css/main.07274441.css.map",
+    "main.a5835e95.js.map": "/portfolio/static/js/main.a5835e95.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0f13f76.css",
-    "static/js/main.b13561ba.js"
+    "static/css/main.07274441.css",
+    "static/js/main.a5835e95.js"
   ]
 }
